@@ -1,0 +1,26 @@
+header {
+    background-color: #CA1016;
+    padding: 20px 0;
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav {
+    text-align: right;
+}
+
+nav a{
+    margin-left: 25px;
+}
+
+.active{
+    border-bottom: 2px solid #fff;
+}
+
+nav a:hover, .logo a{
+    color: #fff;
+}
