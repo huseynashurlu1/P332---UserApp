@@ -1,0 +1,23 @@
+.user-card{
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 4px 5px 13px gainsboro;
+    align-items: center;
+}
+
+.user-card .left{
+    align-items: center;
+    display: flex;
+}
+
+.user-card img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.user-card .left .user-data{
+    margin-left: 15px;
+}

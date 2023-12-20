@@ -1,6 +1,7 @@
 header {
-    background-color: #CA1016;
+    background-color: #1877F2;
     padding: 20px 0;
+    border-bottom: 1px solid #bdbdbd;
 }
 
 header a{
@@ -21,6 +22,6 @@ nav a{
     border-bottom: 2px solid #fff;
 }
 
-nav a:hover, .logo a{
+nav a:hover, .logo a:hover{
     color: #fff;
 }

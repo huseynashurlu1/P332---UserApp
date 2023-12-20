@@ -1,13 +1,15 @@
 import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import PublicRoutes from './routes/PublicRoutes';
-import AdminRoutes from './routes/AdminRoutes';
+import { UserProvider } from './context/UserContext';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <AdminRoutes />
+        <UserProvider>
+          <PublicRoutes />
+        </UserProvider>
       </BrowserRouter>
     </div>
   );
